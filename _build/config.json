@@ -1,0 +1,15 @@
+{
+    "name": "Default Resource Groups",
+    "lowCaseName": "defaultresourcegroups",
+    "description": "Sets one or more resource group",
+    "author": "John Peca",
+    "version": "1.0.0",
+    "package":{
+        "elements": {
+            "plugins": [{
+                "name": "DefaultResourceGroups"
+                ,"events": ["OnDocFormSave", "OnResourceSort"]
+            }]
+        }
+    }
+}

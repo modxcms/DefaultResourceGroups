@@ -1,0 +1,8 @@
+Changelog for Default Resource Groups.
+
+Default Resource Groups 1.0.0
+==============
+- Added property preserveGroups that will make sure that after each save you resource will remain in default resource groups (all other resource groups used as a default for other context will be removed from this resource)
+- Ability to add property with same name as context key and as value specify comma delimited default resource groups
+- Plugin for handling default resource groups
+- Initial release.
