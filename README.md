@@ -17,5 +17,5 @@ DRG installs a Plugin that fires OnDocFormSave and OnResourceSort. The Plugin ad
 
 The "Name" of the property should be the Context key, and the "Value" of the property should be a comma-separated list of Resource Groups in which to place Resources, if they are in the specified Context.
 
-An included property, 'preserveGroups' controls the behaviour of the plugin in regards to Resources that already belong to Resource Groups specified in the Plugin properties.
+An included property, 'preserveGroups' controls the behaviour of the plugin in regards to Resources that already belong to Resource Groups specified in the Plugin properties. Resource membership to Resource Groups that are not defined in the Plugin's properties will be unaffected.
 
