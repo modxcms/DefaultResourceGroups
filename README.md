@@ -13,7 +13,7 @@ Install via Package Management
 
 DRG installs a Plugin that fires OnDocFormSave and OnResourceSort. The Plugin adds the Resource that is being saved or sorted into a default Resource Group. You can define default Resource Groups for Resources in each Context, by adding custom properties to the Plugin (go to the Plugin Edit view and select the "Properties" tab). 
 
-![Custom Property](https://github.com/modxcms/DefaultResourceGroups/core/components/defaultresourcegroups/docs/screenshot.png "Custom Property")
+![Custom Property](core/components/defaultresourcegroups/docs/screenshot.png "Custom Property")
 
 The "Name" of the property should be the Context key, and the "Value" of the property should be a comma-separated list of Resource Groups in which to place Resources, if they are in the specified Context.
 
